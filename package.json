@@ -13,6 +13,7 @@
     "@lottiefiles/react-lottie-player": "^3.6.0",
     "@tippyjs/react": "^4.2.6",
     "aos": "^2.3.4",
+    "classnames": "^2.5.1",
     "framer-motion": "^12.23.12",
     "lottie-react": "^2.4.1",
     "lucide-react": "^0.344.0",

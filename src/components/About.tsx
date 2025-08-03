@@ -8,7 +8,7 @@ interface AboutProps {
 const About: React.FC<AboutProps> = ({ darkMode }) => {
   const stats = [
     { icon: Code, label: 'Projects Completed', value: '3+' },
-    { icon: Coffee, label: 'Cups of Coffee', value: '1000+' },
+    { icon: Coffee, label: 'Cups of Coffee', value: '100+' },
     { icon: Lightbulb, label: 'Ideas Implemented', value: '10+' },
     { icon: Target, label: 'Goals Achieved', value: '5+' },
   ];
@@ -34,9 +34,9 @@ const About: React.FC<AboutProps> = ({ darkMode }) => {
           {/* Left side: Photo */}
           <div className="flex justify-center" data-aos="fade-right" data-aos-duration="1000">
             <img
-              src="/nikhilpic.jpg" // 🔁 Change filename as needed
+              src="/nikhilpic.png" // 🔁 Change filename as needed
               alt="Nikhil"
-              className="w-64 h-64 rounded-full object-cover shadow-lg border-4 border-blue-500"
+              className="w-80 h-90 rounded-full object-cover border-4 border-blue-500 shadow-lg"
             />
           </div>
 
