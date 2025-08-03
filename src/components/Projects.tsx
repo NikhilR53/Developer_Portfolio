@@ -12,8 +12,8 @@ const Projects: React.FC<ProjectsProps> = ({ darkMode }) => {
       description:
         'Designed and implemented a comprehensive system to manage library resources, including book inventory, member registration, and borrowing/returning processes, improving efficiency and organization.',
       tech: ['Python', 'MySQL', 'Tkinter'],
-      github: '#',
-      demo: '#',
+      github: 'https://github.com/NikhilR53',
+      demo: 'https://github.com/NikhilR53',
       image: 'https://images.pexels.com/photos/256541/pexels-photo-256541.jpeg?auto=compress&cs=tinysrgb&w=800',
       featured: true
     },
@@ -22,8 +22,8 @@ const Projects: React.FC<ProjectsProps> = ({ darkMode }) => {
       description:
         'Developed secure and user-friendly ATM applications, enhancing the banking experience by providing seamless transaction capabilities and robust security features.',
       tech: ['Java', 'OOP', 'Swing'],
-      github: '#',
-      demo: '#',
+      github: 'https://github.com/NikhilR53',
+      demo: 'https://github.com/NikhilR53',
       image: 'https://images.pexels.com/photos/164501/pexels-photo-164501.jpeg?auto=compress&cs=tinysrgb&w=800',
       featured: true
     },
@@ -32,8 +32,8 @@ const Projects: React.FC<ProjectsProps> = ({ darkMode }) => {
       description:
         'Designed a system to streamline employee management processes, including attendance tracking, payroll management, and performance evaluation, leading to improved operational efficiency.',
       tech: ['C', 'File Handling', 'CLI'],
-      github: '#',
-      demo: '#',
+      github: 'https://github.com/NikhilR53',
+      demo: 'https://github.com/NikhilR53',
       image: 'https://images.pexels.com/photos/3183171/pexels-photo-3183171.jpeg?auto=compress&cs=tinysrgb&w=800',
       featured: false
     }
@@ -130,7 +130,7 @@ const Projects: React.FC<ProjectsProps> = ({ darkMode }) => {
 
         <div className="text-center mt-12" data-aos="fade-up">
           <a
-            href="https://github.com"
+            href="https://github.com/NikhilR53"
             target="_blank"
             rel="noopener noreferrer"
             className={`inline-flex items-center space-x-2 px-8 py-4 rounded-lg font-semibold transition-all duration-300 hover:shadow-lg transform hover:scale-105 ${
