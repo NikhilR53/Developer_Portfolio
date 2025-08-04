@@ -189,19 +189,30 @@ const Contact: React.FC<ContactProps> = ({ darkMode }) => {
 
               {/* Submit Status */}
               {submitStatus === 'success' && (
-                <div className="mb-6 p-4 bg-green-100 border border-green-400 text-green-700 rounded-lg flex items-center">
+                <div
+                  className={`mb-6 p-4 border rounded-lg flex items-center ${
+                    darkMode
+                      ? 'bg-green-900 border-green-700 text-green-300'
+                      : 'bg-green-100 border-green-400 text-green-700'
+                  }`}
+                >
                   <CheckCircle className="w-5 h-5 mr-2" />
                   Message sent successfully! I'll get back to you soon.
                 </div>
               )}
 
               {submitStatus === 'error' && (
-                <div className="mb-6 p-4 bg-red-100 border border-red-400 text-red-700 rounded-lg flex items-center">
+                <div
+                  className={`mb-6 p-4 border rounded-lg flex items-center ${
+                    darkMode
+                      ? 'bg-red-900 border-red-700 text-red-300'
+                      : 'bg-red-100 border-red-400 text-red-700'
+                  }`}
+                >
                   <AlertCircle className="w-5 h-5 mr-2" />
                   Something went wrong. Please try again or email me directly.
                 </div>
               )}
-
               <button
                 type="submit"
                 disabled={isSubmitting}
