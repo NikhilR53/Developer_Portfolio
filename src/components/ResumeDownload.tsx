@@ -9,7 +9,7 @@ const ResumeDownload: React.FC<ResumeDownloadProps> = ({ darkMode }) => {
   const handleDownload = () => {
     // Create a link element and trigger download
     const link = document.createElement('a');
-    link.href = '/resume_23EG505R53.pdf';
+    link.href = '/Resume-Nikhil.pdf';
     link.download = 'Nikhil_Resume.pdf';
     document.body.appendChild(link);
     link.click();

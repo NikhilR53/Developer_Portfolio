@@ -27,7 +27,7 @@ Each project card links to **GitHub** or live demos, allowing recruiters and col
 - **Styling:** Tailwind CSS
 - **Version Control:** Git & GitHub
 - **Deployment:** Render (Static Site Hosting)
-
+- **Backend:** Firebase (To get In Contact)
 ---
 
 ## 🚀 Features
